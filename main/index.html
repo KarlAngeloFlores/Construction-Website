@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+   
+
+    <!--navigation-->
+
+
+    <header class='header w-full bg-white py-4 shadow-md sticky top-0 z-10'>
+        
+        <div class="w-full max-w-7xl flex items-center justify-between md:mx-auto px-4 gap-4">
+            <div>
+                <img src="../images/logo.png" alt="Projextex" />
+            </div>
+
+            <nav class="nav-ul-container">
+                <ul class='nav-ul md:flex md:flex-row flex-col gap-8'>
+                    <li><a class='hover:text-red-500 transition ease duration-200 text-lg' href="index.html">Home</a></li>
+                    <li><a class='hover:text-red-500 transition ease duration-200 text-lg' href="#servicesSection">Services</a></li>
+                    <li><a class='hover:text-red-500 transition ease duration-200 text-lg' href="about.html">About</a></li>
+                    <li><a class='hover:text-red-500 transition ease duration-200 text-lg' href="#footerSection">Contact</a></li>
+                    <i class="fa-solid fa-x" id = "closeMenu"></i>
+                </ul>
+            </nav>
+
+            <div class="flex items-center">
+            <button class='sm:text-base text-sm button-quote bg-red-500 sm:px-8 px-2 sm:py-4 py-4 text-white hover:bg-red-800 transition ease duration-200 shadow-md'>Get A Quote</button>
+            <i class="fa-solid fa-bars text-red-600 cursor-pointer" id = "menuButton"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!--hero-->
+
+
+    <section class='hero-main w-full h-screen bg-gray-200 bg-cover' style="background-image: url(../images/home/herobuilding.jpg);">
+        <div class='filter w-full h-full bg-black bg-opacity-50'>
+          <div class='w-full max-w-7xl h-full flex items-center justify-center flex-col mx-auto my-0 gap-20' >
+               
+                <h1 class='hero-info font-bold text-white text-6xl max-w-xl text-center'>We're Always Ready For A Challenge</h1>
+                <button class='px-12 py-4 bg-red-500 text-white hover:bg-red-800 ease transition duration-300 shadow-md'>Discover</button>
+              
+          </div>
+          </div>
+    </section>
+
+
+    <!--services-->
+
+
+    <section class='w-full' id = "servicesSection">
+        <div class='max-w-7xl py-[6%] mx-4 xl:mx-auto my-0'> 
+            <h2 class='font-bold text-center text-6xl'>Industrial Services</h2>
+            <div class='grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-4 mt-8'>
+                <div class=' md:col-start-1 md:col-end-3 bg-slate-900  p-16 flex items-center justify-center'>
+                    <p class='text-white text-2xl'>Projex-Tec has a highly qualified technical Team to manage the requirements and performance of design sub-contractors including any specialized services.</p>
+                </div>
+                <div class='md:col-start-3 md:col-end-4 bg-red-600 flex items-center justify-center p-8'>
+                    <h3 class='text-white text-5xl'>Engineering</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class='max-w-7xl py-[2%] grid grid-cols-1 sm:grid-cols-3 mx-4 xl:mx-auto my-0 gap-16'>
+            <div>
+                <h5 class='font-bold text-lg'>Mission</h5>
+                <p class='my-6'>We strongly believe that success is based on pro-active and dedicated teamwork in a professional and ethical environment that leads to creative solutions and fully deserved rewards.</p>
+                <button class='text-md text-red-600'>VIEW MORE</button>
+            </div>
+
+            <div>
+                <h5 class='font-bold text-lg'>Vision</h5>
+                <p class='my-6'>We aim to be a leading contractor in Egypt by focusing on the timely implementation of our projects, and meeting the expectations & requirements of our customers at the highest possible level.</p>
+                <button class='text-md text-red-600'>VIEW MORE</button>
+            </div>
+
+            <div>
+                <h5 class='font-bold text-lg'>Culture</h5>
+                <p class='my-6'>Our work culture is embodied in several principles and values that guide every Projex-Tec employee in delivering our vision.</p>
+                <button class='text-md text-red-600'>VIEW MORE</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--browse section-->
+
+
+    <section class='browse-section w-full' style="background-image: url(../images/home/browsesystem.png);">
+        <div class='filter py-[8%]'>
+            <div class='max-w-7xl mx-auto my-0'>
+                <h2 class='font-bold text-center text-6xl text-white '>Browse Our Systems</h2>
+                
+                <div class='grid gap-4 mt-12 sm:grid-cols-2 md:grid-cols-5 grid-cols-1 xl:mx-0 mx-4'>
+                    <div class='flex flex-col justify-center items-center gap-6 bg-white p-8 h-60'>
+                        
+                        <img src="../icons/hvac.png" alt="" class='w-24 h-24'/>
+                        <h5 class='font-semibold text-lg text-center'>HVAC SYSTEMS</h5>
+                    
+                    </div>
+                    <div class='flex flex-col justify-center items-center gap-6 bg-white p-8 h-60'>
+                        
+                        <img src="../icons/drainage.png" alt="" class='w-24 h-24'/>
+                        <h5 class='font-semibold text-lg text-center'>PLUMBING & DRAINAGE SYSTEMS</h5>
+                    
+                    </div>
+                    <div class='flex flex-col justify-center items-center gap-6 bg-white p-8 h-60'>
+                        
+                        <img src="../icons/fire.png" alt="" class='w-24 h-24'/>
+                        <h5 class='font-semibold text-lg text-center'>FIRE PROTECTION SYSTEMS</h5>
+                    
+                    </div>
+                    <div class='flex flex-col justify-center items-center gap-6 bg-white p-8 h-60'>
+                        
+                        <img src="../icons/electrical.png" alt="" class='w-24 h-24'/>
+                        <h5 class='font-semibold text-lg text-center'>ELECTRICAL SYSTEMS</h5>
+                    
+                    </div>
+                    <div class='flex flex-col justify-center items-center gap-6 bg-white p-8 h-60'>
+                        
+                        <img src="../icons/infrastructure.png" alt="" class='w-24 h-24'/>
+                        <h5 class='font-semibold text-lg text-center'>INFRASTRUCTURE SYSTEMS</h5>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--founders-->
+
+
+<section class='bg-slate-900'>
+    <div class=' max-w-7xl mx-4 xl:mx-auto my-0 py-[6%]'> 
+        <h1 class=' text-5xl font-bold text-white text-center mb-20 sm:mb-16'>Founders</h1>
+
+        <div class='flex justify-between sm:flex-row flex-col gap-20 sm:gap-4'> 
+            <div class='bg-white p-12 relative'> 
+                <div class='founder-one w-40 h-40 bg-slate-300 rounded-full mx-auto my-0 mb-[-4rem] translate-y-[-70%] bg-cover bg-no-repeat bg-center' style="background-image: url(../images/home/ahmed.jpg);"></div>
+                <h4 class='font-bold text-4xl text-center'>Mr. Ahmed Ismail</h4>
+                <p class='text-center mt-2'>Operations Manager</p>
+
+                <div class='display grid w-40 gap-2 mx-auto my-0 mt-8'>
+                  <button class='border border-red-600 py-4 hover:bg-red-900 transition ease duration-300 hover:text-white hover:border-red-900'>Contact <i class="fa-regular fa-envelope align-middle text-red-600 hover:text-white"></i></button>
+                  <button class='bg-red-600 text-white py-4 hover:bg-red-900 transition ease duration-300'>View Projects</button>
+                </div>
+            </div>
+            
+            <div class='bg-white p-12 relative ' > 
+                <div class='founder-two w-40 h-40 bg-slate-300 rounded-full mx-auto my-0 translate-y-[-70%] mb-[-4rem] bg-cover bg-no-repeat bg-center' style="background-image: url(../images/home/shaaban.jpg);"></div>
+                <h4 class='font-bold text-4xl text-center'>Mr. Shaaban Nada</h4>
+                <p class='text-center mt-2'>Engineering & Procurement Mananger</p>
+
+                <div class='display grid w-40 gap-2 mx-auto my-0 mt-8'>
+                  <button class='border border-red-600 py-4 hover:bg-red-900 transition ease duration-300 hover:text-white peer-hover:border-red-900'>Contact <i class="fa-regular fa-envelope align-middle text-red-600 hover:text-white"></i></button>
+                  <button class='bg-red-600 text-white py-4 hover:bg-red-900 transition ease duration-300'>View Projects</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--clients-->
+
+
+<section class = "logos bg-slate-900 w-full overflow-hidden relative whitespace-nowrap">
+    <h1 class=' text-5xl font-bold text-white text-center mb-16'>Clients</h1>
+    
+    <div class="logo-slide whitespace-nowrap py-6 flex gap-8"><!--wrapper/container-->
+        
+        <img src="../images/home/clients/ariel.png" alt="" class="h-48">
+        <img src="../images/home/clients/bmw.png" alt="" class="h-48">
+        <img src="../images/home/clients/fifa.png" alt="" class="h-48">
+        <img src="../images/home/clients/gatorade.jpg" alt="" class="h-48">
+        <img src="../images/home/clients/glass.avif" alt="" class="h-48">
+        <img src="../images/home/clients/starbucks.jpg" alt="" class="h-48">
+        <img src="../images/home/clients/shell.jpg" alt="" class="h-48">
+
+        <img src="../images/home/clients/ariel.png" alt="" class="h-48">
+        <img src="../images/home/clients/bmw.png" alt="" class="h-48">
+        <img src="../images/home/clients/fifa.png" alt="" class="h-48">
+        <img src="../images/home/clients/gatorade.jpg" alt="" class="h-48">
+        <img src="../images/home/clients/glass.avif" alt="" class="h-48">
+        <img src="../images/home/clients/starbucks.jpg" alt="" class="h-48">
+        <img src="../images/home/clients/shell.jpg" alt="" class="h-48">
+    </div>
+
+</section>
+
+
+<!--projects-->
+
+
+<section class='w-full '>
+
+    <div class='w-full max-w-7xl xl:mx-auto my-0 py-[3%]'>
+        <h5 class='text-lg text-slate-900 mx-4'>Explore Our Founder's Recent Project</h5>
+    </div>
+
+    <div class='max-w-full grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4'> 
+        
+        <div class='project-one h-96 bg-cover bg-no-repeat bg-center' style="background-image: url(../images/home/internal.jpg);">
+            <div class='w-full h-full bg-black bg-opacity-70 p-5 relative'>
+                <h4 class='text-white font-bold'>Internal Security Forces</h4>
+                <p class='text-white'>Doha, Qatar</p>
+                <hr class='w-[90%] my-2'/>
+                <p class='text-white'>Infrastructural Package for Duhail Camp</p>
+                <button class='text-red-600 hover:text-white duration-200 transition ease absolute right-8 bottom-8'>READ MORE</button>
+            </div>
+        </div>
+
+        <div class='project-two h-96 bg-cover bg-no-repeat bg-center' style="background-image: url(../images/home/mubadala.jpg);">
+            <div class='w-full h-full bg-black bg-opacity-70 p-5 relative'>
+                <h4 class='text-white font-bold'>MUBADALA</h4>
+                <p class='text-white'>Abu Dhabi, United Arab Emirates</p>
+                <hr class='w-[90%] my-2'/>
+                <p class='text-white'>80,000 TR District Cooling Plant EPC Project for AI Sowwah Island</p>
+                <button class='text-red-600 hover:text-white duration-200 transition ease absolute right-8 bottom-8'>READ MORE</button>
+            </div>
+        </div>
+
+        <div class='project-three h-96 bg-cover bg-no-repeat bg-center ' style="background-image: url(../images/home/port.jpg);">
+            <div class='w-full h-full bg-black bg-opacity-70 p-5 relative'>
+                <h4 class='text-white font-bold'>Doha Port</h4>
+                <p class='text-white'>Doha, Qatar</p>
+                <hr class='w-[90%] my-2'/>
+                <p class='text-white'>Contracting for Phase 2 of Hamad Port</p>
+                <button class='text-red-600 hover:text-white duration-200 transition ease absolute right-8 bottom-8'>READ MORE</button>
+            </div>
+        </div>
+
+        <div class='project-four h-96 bg-cover bg-no-repeat bg-center' style="background-image: url(../images/home/electrical.jpg);">
+            <div class='w-full h-full bg-black bg-opacity-70 p-5 relative'>
+                <h4 class='text-white font-bold'>Ministry of Electricity & Renewable Energy</h4>
+                <p class='text-white'>Damietta, Egypt</p>
+                <hr class='w-[90%] my-2'/>
+                <p class='text-white'>2 Power stations, each 1000 MW 8 Turbines simple cycle</p>
+                <button class='text-red-600 hover:text-white duration-200 transition ease absolute right-8 bottom-8'>READ MORE</button>
+            </div>
+        </div>
+    </div>                  
+</section>
+
+
+<!--request-->
+
+
+<section class='w-full'>
+    <div class="wrapper max-w-7xl mx-4 xl:mx-auto my-0 flex sm:flex-row flex-col items-center sm:items-start py-[6%]">
+        <div class='w-full sm:w-[50%]'>   
+            <div class=''>
+            <h2 class=' font-semibold text-5xl relative mb-8'>Request A Quote</h2>
+                <input type="text" placeholder='FULL NAME' class='border-[2px] sm:w-[80%] w-full py-4 px-4' />
+                <br class=''/>
+                <input type="text" placeholder='MOBILE NO.' class='border-[2px] sm:w-[80%] w-full py-4 px-4 mt-6'/>
+                <br />
+                <input type="email" name="" id="" placeholder='EMAIL' class='border-[2px] sm:w-[80%] w-full py-4 px-4 mt-6'/>
+                <br />
+                <input type="text" placeholder='SERVICE' class='border-[2px] sm:w-[80%] w-full py-4 px-4 mt-6'/>
+                <br />
+                <textarea name="" id="" cols="30" rows="10" placeholder='MESSAGE' class='border-[2px] sm:w-[80%] w-full py-4 px-4 mt-6'></textarea>
+                <br />
+                <button class='bg-red-600 text-white hover:bg-red-900 font-bold text-base transition ease duration-200 shadow-md py-6 px-12 mt-4 sm:w-auto w-full'>Submit</button>
+            </div>
+        </div>
+        <div class='w-full sm:w-[50%] '>
+            <h2 class=' font-semibold text-5xl mb-8 md:text-center'>Request A Quote</h2>
+            
+        <div class='p-6 border-[2px] mt-6 transition ease-in duration-300'>
+            <p class='text-safety font-semibold flex items-center justify-between'>Safety <i class="fa-solid fa-plus cursor-pointer hover:text-red-600 duration-200 ease-in transition" id = "plusSafety"></i></p>    
+            <p class='safety-content text-base mt-4 hidden '>
+                At our company, safety is our top priority. We adhere to strict safety protocols to ensure the well-being of our employees, clients, and communities. Our safety management system is designed to identify and mitigate potential hazards in the workplace. We provide regular safety training to our staff and enforce safety guidelines on all our projects. Our commitment to safety extends beyond compliance with regulations. We foster a culture of safety consciousness among our employees, encouraging them to take proactive measures to prevent accidents and injuries. We believe that every accident is preventable, and we strive for zero incidents on all our job sites. Our safety record speaks for itself. We have implemented robust safety measures that have resulted in a significant reduction in workplace incidents. However, we are continuously improving our safety practices to ensure that we meet and exceed industry standards. Safety is not just a policy at our company; it is a core value that guides everything we do. We are dedicated to creating a safe and healthy work environment for everyone involved in our operations. Together, we can build a safer future for all.
+            </p>
+        </div>
+                 
+            <div class='p-6 border-[2px] mt-6'>
+            <p class='text-quality font-semibold flex items-center justify-between'>Quality <i class="fa-solid fa-plus cursor-pointer hover:text-red-600 duration-200 ease-in transition" id = "plusContent"></i></p>
+                <p class='quality-content text-base mt-4 hidden '>
+                    Projex-Tec Co. is dedicated to satisfying our customers by providing quality products & services on
+                    time & striving towards continual improvement. Our Management is committed to providing Supply,
+                    Installation, Testing, and Commissioning of Electromechanical works to its clients for various
+                    projects and has established Quality Assurance / Quality Control Programs in a manner that strives
+                    to comply with ISO 9001:2008. Projex-Tec Co. achieves the highest quality standards throughout the
+                    performance of its activities in meeting all the specifications and procedures of customer
+                    satisfaction and projects are executed in a manner that emphasizes safety, quality, and maximum
+                    cost-effectiveness. The ultimate objective of our company is to comply fully or surpass the quality
+                    standards established by the International Organization for Standardization. We believe that the
+                    team, not individuals, are the essential unit of this organization for achieving high performance.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+
+
+<footer class='w-full py-[6%] bg-slate-900' id = "footerSection">
+    <div class='xl:mx-auto mx-4 my-auto max-w-7xl grid sm:gap-4 md:grid-cols-4 relative'>
+    <div class="flex flex-col gap-4">
+        <img src="../images/logowhite.png" alt="Projextex" />
+        <p class='text-white'>Sara Tower, 23 AI Batrawi Street, 3rd Floor, Abbas El-Akkad, Nasr City, Cairo Egypt</p>
+        <p class='flex gap-8  sm:mb-auto mb-4'><span class='text-white underline decoration-red-600 underline-offset-8'>+2022617124</span><span class='text-white underline decoration-red-600 underline-offset-8'>+2022617124</span></p>
+    </div>
+
+<div class="md:block hidden"></div>
+
+    <div class='flex items-start flex-col justify-start gap-4'>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>About</a>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>Services</a>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>Contact</a>
+        <button class='px-8 py-4 bg-red-600 text-white hover:bg-red-900 shadow-md transition ease-in-out duration-300 sm:mb-auto mb-4'>Get A Quote</button>
+    </div>
+
+    <div class='flex items-start flex-col justify-start gap-4'>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>Facebook</a>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>Twitter</a>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>LinkedIn</a>
+        <a href="" class='text-white hover:text-slate-300 duration-300 ease transition'>Instagram</a>
+    </div>
+
+    </div>
+
+    <p class='text-slate-300 text-sm text-center mt-20'>©2024 Karl Angelo Flores. All rights reserved</p>
+</footer>
+
+
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
